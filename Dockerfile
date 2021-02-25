@@ -1,9 +1,9 @@
 FROM alpine:latest
 
-LABEL maintainer="Rui Marinho <rui@uphold.com> (@ruimarinho)"
+LABEL maintainer="Jack in the Box"
 
 ENV PGBADGER_DATA=/data
-ENV PGBADGER_VERSION=11.1
+ENV PGBADGER_VERSION=11.5
 ENV PGBADGER_PREFIX=/opt/pgbadger-${PGBADGER_VERSION}
 ENV PATH=${PGBADGER_PREFIX}:$PATH
 
